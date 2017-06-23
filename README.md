@@ -11,8 +11,8 @@ Ejecutar `npm start` o `npm serve` para levantar el servidor. Navegar a `http://
 
 Para no crear dependencias de bases de datos el servicio utiliza el fichero `data/personas.json`. El fichero se lee completo y se graba completo, no se ha optimizado el proceso.
 Los resultados de las peticiones se vuelcan a consola para facilitar las comprobaciones.
-La estructura de datos:
-    id: number
-    nombre: string
-    apellidos: string
-    edad: number
+La estructura de datos: Persona {
+    id: number,
+    nombre: string,
+    apellidos: string,
+    edad: number }
